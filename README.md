@@ -1,34 +1,57 @@
 # Design-of-a-Simple-General-Purpose-Processor
 FPGA Based Arithmetic Logic Unit (ALU) Design: VHDL, Quartus II, Altera Board
 
-Developed a simple central processing unit (CPU) using VHDL, simulating and deploying it on an Altera FPGA board. The project involved designing all key CPU components including an Arithmetic Logic Unit (ALU), a control unit (FSM + decoder), registers, and memory logic. When run, the CPU cycled through instructions using a finite state machine, executed arithmetic/logical operations on two 8-bit inputs, and displayed the results live on 7-segment displays. This project deepened my understanding of hardware design, finite state machines, and digital circuit integration.
+**Project Overview:**
+Developed a simple central processing unit (CPU) using VHDL, simulating and deploying it on an Altera FPGA board. The project involved designing all key CPU components including:
+- Arithmetic Logic Unit (ALU)
+- control unit (FSM + decoder)
+- registers
+- memory logic
+
+The CPU cycled through instructions using a finite state machine, executed arithmetic/logical operations on two 8-bit inputs, and displayed the results live on 7-segment displays. This project deepened my understanding of hardware design, finite state machines, and digital circuit integration.
+
+**Hardware Implementaion:**
+The CPU was implemented on the Altera Cyclone-II EP2C35F672C6 FPGA board. The board’s switches and 7-segment displays were used to input data and display ALU outputs in real-time.
+Allowing full hardware validation on VHDL modules including:
+- FSM
+- Decoder
+- Registers
+- ALU
+
+<img width="800" height="543" alt="image" src="https://github.com/user-attachments/assets/191b24de-b3ac-451a-8c9b-62c72d0ade20" />
 
 
-The CPU project was implemented on the Altera Cyclone-II EP2C35F672C6 FPGA board. The board’s switches and 7-segment displays were used to input data and display ALU outputs in real-time. This allowed full hardware validation of VHDL modules including FSM, decoder, registers, and ALU. The project demonstrated hands-on experience with digital design, simulation, and real-time FPGA implementation.
-<img width="800" height="543" alt="image" src="https://github.com/user-attachments/assets/4ceb8c6f-4dcc-45e1-96d0-5786865b6bff" />
+**CPU Block Diagram:**
 
-This is the block diagram of the CPU we are designing.
-<img width="581" height="371" alt="image" src="https://github.com/user-attachments/assets/ccf3a1e7-f9a0-48a9-87f5-3549356de5ff" />
+<img width="581" height="371" alt="image" src="https://github.com/user-attachments/assets/f27e6d47-794d-47d0-9a85-d210b528d465" />
 
-The VHD file custom designed for the decoder:
-Developed a 4-to-16 line decoder in VHDL with an enable input for use in a custom CPU design. The decoder activates one of 16 output lines based on a 4-bit input when enabled, using a one-hot encoding scheme. It was integrated into the control unit to generate operation codes for the ALU based on FSM output.
+      
+      
+      
+**Decoder Module (VHDL):**
+Developed a 4-to-16 line decoder in VHDL with an enable input for use in the custom CPU design.
+- Activates one of 16 output lines based on a 4-bit input when enabled
+- Uses one-hot encoding
+- Integrated into the control unit to generate operation codes for the ALU based on FSM output
 
-<img width="608" height="742" alt="image" src="https://github.com/user-attachments/assets/ba447c88-1110-4699-b98c-0f7a002a35b7" />
+<img width="608" height="742" alt="image" src="https://github.com/user-attachments/assets/77438b99-68ef-44b0-b1cd-f7b46a41a503" />
+  
+  
+**Final Processor Schematic:**
+
+<img width="800" height="393" alt="image" src="https://github.com/user-attachments/assets/9f8d26fd-65bf-402d-adb4-30419a72a0b5" />
 
 
-Block Schematic of Final Processor:
-<img width="800" height="393" alt="image" src="https://github.com/user-attachments/assets/d82b08c9-1af0-46e1-a2c5-34ecbb270e95" />
-
-In the process of this very intuative digital systems project I uncovered and learned a ton of useful skills:
+**Skills and Technologies Gained:**
 - Digital Systems
 - Field-Programmable Gate Arrays (FPGA)
 - Digital Logic Design
 - ALU Design
-- Register & Decoder
+- Register & Decoder Design
 - Encoding/Decoding
 - Logic Simulation & Timing Analysis
-- Altera FPGA board
-- VHDL
+- Altera FPGA Board Operation
+- VHDL Programming
 - FPGA Design & Programming
 - Logic Design
 - Quartus Prime Software
@@ -37,3 +60,5 @@ In the process of this very intuative digital systems project I uncovered and le
 - Binary and BCD Encoding/Decoding
 - Clocked Sequential Circuits
 - Hardware Testing and Debugging
+
+
