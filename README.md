@@ -8,3 +8,21 @@ Developed a simple central processing unit (CPU) using VHDL, simulating and depl
 <img width="608" height="742" alt="image" src="https://github.com/user-attachments/assets/ba447c88-1110-4699-b98c-0f7a002a35b7" />
 <img width="800" height="393" alt="image" src="https://github.com/user-attachments/assets/d82b08c9-1af0-46e1-a2c5-34ecbb270e95" />
 
+In the process of this very intuative digital systems project I uncovered and learned a ton of useful skills:
+- Digital Systems
+- Field-Programmable Gate Arrays (FPGA)
+- Digital Logic Design
+- ALU Design
+- Register & Decoder
+- Encoding/Decoding
+- Logic Simulation & Timing Analysis
+- Altera FPGA board
+- VHDL
+- FPGA Design & Programming
+- Logic Design
+- Quartus Prime Software
+- Finite State Machines
+- Register & Decoder Implementation
+- Binary and BCD Encoding/Decoding
+- Clocked Sequential Circuits
+- Hardware Testing and Debugging
