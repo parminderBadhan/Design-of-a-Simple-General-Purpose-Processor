@@ -12,7 +12,9 @@ This is the block diagram of the CPU we are designing.
 
 The VHD file custom designed for the decoder:
 Developed a 4-to-16 line decoder in VHDL with an enable input for use in a custom CPU design. The decoder activates one of 16 output lines based on a 4-bit input when enabled, using a one-hot encoding scheme. It was integrated into the control unit to generate operation codes for the ALU based on FSM output.
+
 <img width="608" height="742" alt="image" src="https://github.com/user-attachments/assets/ba447c88-1110-4699-b98c-0f7a002a35b7" />
+
 
 Block Schematic of Final Processor:
 <img width="800" height="393" alt="image" src="https://github.com/user-attachments/assets/d82b08c9-1af0-46e1-a2c5-34ecbb270e95" />
