@@ -6,6 +6,7 @@ Developed a simple central processing unit (CPU) using VHDL, simulating and depl
 
 The CPU project was implemented on the Altera Cyclone-II EP2C35F672C6 FPGA board. The board’s switches and 7-segment displays were used to input data and display ALU outputs in real-time. This allowed full hardware validation of VHDL modules including FSM, decoder, registers, and ALU. The project demonstrated hands-on experience with digital design, simulation, and real-time FPGA implementation.
 <img width="800" height="543" alt="image" src="https://github.com/user-attachments/assets/4ceb8c6f-4dcc-45e1-96d0-5786865b6bff" />
+This is the block diagram of the CPU we are designing.
 <img width="581" height="371" alt="image" src="https://github.com/user-attachments/assets/ccf3a1e7-f9a0-48a9-87f5-3549356de5ff" />
 <img width="608" height="742" alt="image" src="https://github.com/user-attachments/assets/ba447c88-1110-4699-b98c-0f7a002a35b7" />
 <img width="800" height="393" alt="image" src="https://github.com/user-attachments/assets/d82b08c9-1af0-46e1-a2c5-34ecbb270e95" />
